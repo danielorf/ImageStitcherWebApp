@@ -1,0 +1,5 @@
+# PyCharm and VSCode metadata
+.idea/
+.vscode/
+__pycache__
+.DS_Store

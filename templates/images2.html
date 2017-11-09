@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<h2><a href = "\home">Return Home</a></h2>
+<h3>Image 1:</h3>
+<img src="{{ url_for('static', filename = 'img1.jpg') }}">
+<br>
+<h3>Image 2:</h3>
+<img src="{{ url_for('static', filename = 'img2.jpg') }}">
+<br>
+<h3>Image Keypoints Matched:</h3>
+<img src="{{ url_for('static', filename = 'img_matched.jpg') }}">
+<br>
+<h3>Stitched Images</h3>
+<img src="{{ url_for('static', filename = 'result_image.jpg') }}">
+<br>
+
+</body>
+
+</html>
